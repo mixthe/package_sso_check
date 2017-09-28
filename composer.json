@@ -1,0 +1,21 @@
+{
+    "name": "mixthe/sso_check",
+    "description": "SSO verification",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mixthe",
+            "email": "jialulu2014@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "5.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mixthe\\sso_check\\":"src/"
+        }
+    }
+}
